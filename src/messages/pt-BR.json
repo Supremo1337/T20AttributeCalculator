@@ -1,59 +1,60 @@
 {
-    "Config": {
-        "title": "Configurações",
-        "description": "Mude sua calculadora",
-        "configOptions": {
-            "editablePoints": "Pontos Editaveis",
-            "othersPointsSection": "Seção 'Outros' para Calc."
-        }
-    },
-    "Main": {
-        "subheading": "Uma calculadora de atributos para Tormenta20 - Edição Jogo do Ano",
-        "nameInputPlaceholder": "Personagem",
-        "resetButton": "Resetar",
-        "raceSelector": {
-            "button": "Raça: {race}"
-        },
-        "maxPoints": "Pontos Totais",
-        "pointsLeft": "Pontos Restantes",
-        "changePointsButton": "Mudar e Resetar",
-        "races": {
-            "Other": "Outro",
-            "Human": "Humano/a",
-            "Dwarf": "Anã(o)",
-            "Dahllan": "Dahllan",
-            "Elf": "Elfo/a",
-            "Goblin": "Goblin",
-            "Lefou": "Lefou",
-            "Minotaur": "Minotauro",
-            "Qareen": "Qareen",
-            "Golem": "Golem",
-            "Hynne": "Hynne",
-            "Kliren": "Kliren",
-            "Medusa": "Medusa",
-            "Osteon": "Osteon",
-            "Merfolk": "Sereia/Tritão",
-            "Silfide": "Silfide",
-            "Sulfure": "Sulfure",
-            "Aggelus": "Aggelus",
-            "Trog": "Trog"
-        },
-        "calculator": {
-            "heading": {
-                "name": "Nome",
-                "base": "Base",
-                "racial": "Racial",
-                "other": "Outro",
-                "total": "Total"
-            },
-            "attributeNames": {
-                "strength": "FOR",
-                "dexterity": "DES",
-                "constitution": "CON",
-                "intelligence": "INT",
-                "wisdom": "SAB",
-                "charisma": "CAR"
-            }
-        }
+  "Config": {
+    "title": "Configurações",
+    "description": "Mude sua calculadora",
+    "configOptions": {
+      "editablePoints": "Pontos Editaveis",
+      "othersPointsSection": "Seção 'Outros' para Calc."
     }
+  },
+  "Main": {
+    "subheading": "Uma calculadora de atributos para Tormenta20 - Edição Jogo do Ano",
+    "nameInputPlaceholder": "Personagem",
+    "resetButton": "Resetar",
+    "raceSelector": {
+      "button": "Raça: {race}"
+    },
+    "maxPoints": "Pontos Totais",
+    "pointsLeft": "Pontos Restantes",
+    "changePointsButton": "Mudar e Resetar",
+    "races": {
+      "Other": "Outro",
+      "Human": "Humano/a",
+      "Dwarf": "Anã(o)",
+      "Dahllan": "Dahllan",
+      "Elf": "Elfo/a",
+      "Goblin": "Goblin",
+      "Lefou": "Lefou",
+      "Minotaur": "Minotauro",
+      "Qareen": "Qareen",
+      "Golem": "Golem",
+      "Hynne": "Hynne",
+      "Kliren": "Kliren",
+      "Medusa": "Medusa",
+      "Osteon": "Osteon",
+      "Merfolk": "Sereia/Tritão",
+      "Silfide": "Silfide",
+      "Sulfure": "Sulfure",
+      "Aggelus": "Aggelus",
+      "Trog": "Trog",
+      "Bugbear": "Bugbear"
+    },
+    "calculator": {
+      "heading": {
+        "name": "Nome",
+        "base": "Base",
+        "racial": "Racial",
+        "other": "Outro",
+        "total": "Total"
+      },
+      "attributeNames": {
+        "strength": "FOR",
+        "dexterity": "DES",
+        "constitution": "CON",
+        "intelligence": "INT",
+        "wisdom": "SAB",
+        "charisma": "CAR"
+      }
+    }
+  }
 }

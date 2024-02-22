@@ -1,59 +1,60 @@
 {
-    "Config": {
-        "title": "Configurations",
-        "description": "Change your calculator",
-        "configOptions": {
-            "editablePoints": "Editable Points",
-            "othersPointsSection": "'Others' Calc. Section"
-        }
-    },
-    "Main": {
-        "subheading": "An attribute calculator for Tormenta20 - Game of The Year Edition",
-        "nameInputPlaceholder": "Character",
-        "resetButton": "Reset",
-        "raceSelector": {
-            "button": "Race: {race}"
-        },
-        "maxPoints": "Total Points",
-        "pointsLeft": "Points Left",
-        "changePointsButton": "Change and Reset",
-        "races": {
-            "Other": "Other",
-            "Human": "Human",
-            "Dwarf": "Dwarf",
-            "Dahllan": "Dahllan",
-            "Elf": "Elf",
-            "Goblin": "Goblin",
-            "Lefou": "Lefou",
-            "Minotaur": "Minotaur",
-            "Qareen": "Qareen",
-            "Golem": "Golem",
-            "Hynne": "Hynne",
-            "Kliren": "Kliren",
-            "Medusa": "Medusa",
-            "Osteon": "Osteon",
-            "Merfolk": "Merfolk",
-            "Silfide": "Silfide",
-            "Sulfure": "Sulfure",
-            "Aggelus": "Aggelus",
-            "Trog": "Trog"
-        },
-        "calculator": {
-            "heading": {
-                "name": "Name",
-                "base": "Base",
-                "racial": "Racial",
-                "other": "Other",
-                "total": "Total"
-            },
-            "attributeNames": {
-                "strength": "STR",
-                "dexterity": "DEX",
-                "constitution": "CON",
-                "intelligence": "INT",
-                "wisdom": "WIS",
-                "charisma": "CHA"
-            }
-        }
+  "Config": {
+    "title": "Configurations",
+    "description": "Change your calculator",
+    "configOptions": {
+      "editablePoints": "Editable Points",
+      "othersPointsSection": "'Others' Calc. Section"
     }
+  },
+  "Main": {
+    "subheading": "An attribute calculator for Tormenta20 - Game of The Year Edition",
+    "nameInputPlaceholder": "Character",
+    "resetButton": "Reset",
+    "raceSelector": {
+      "button": "Race: {race}"
+    },
+    "maxPoints": "Total Points",
+    "pointsLeft": "Points Left",
+    "changePointsButton": "Change and Reset",
+    "races": {
+      "Other": "Other",
+      "Human": "Human",
+      "Dwarf": "Dwarf",
+      "Dahllan": "Dahllan",
+      "Elf": "Elf",
+      "Goblin": "Goblin",
+      "Lefou": "Lefou",
+      "Minotaur": "Minotaur",
+      "Qareen": "Qareen",
+      "Golem": "Golem",
+      "Hynne": "Hynne",
+      "Kliren": "Kliren",
+      "Medusa": "Medusa",
+      "Osteon": "Osteon",
+      "Merfolk": "Merfolk",
+      "Silfide": "Silfide",
+      "Sulfure": "Sulfure",
+      "Aggelus": "Aggelus",
+      "Trog": "Trog",
+      "Bugbear": "Bugbear"
+    },
+    "calculator": {
+      "heading": {
+        "name": "Name",
+        "base": "Base",
+        "racial": "Racial",
+        "other": "Other",
+        "total": "Total"
+      },
+      "attributeNames": {
+        "strength": "STR",
+        "dexterity": "DEX",
+        "constitution": "CON",
+        "intelligence": "INT",
+        "wisdom": "WIS",
+        "charisma": "CHA"
+      }
+    }
+  }
 }

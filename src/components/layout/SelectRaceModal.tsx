@@ -6,24 +6,32 @@ import { Toggle } from "../flowbite/Toggle";
 import { useAtom } from "jotai";
 import { useTranslations } from "next-intl";
 
-export function ConfigModal() {
-  const [openConfigModal, setOpenConfigModal] = useState(false);
+interface SelectRaceModalProps {
+  openSelectRaceModal: boolean;
+  setOpenSelectRaceModal: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+export function SelectRaceModal({
+  openSelectRaceModal,
+  setOpenSelectRaceModal,
+}: SelectRaceModalProps) {
+  // const [openSelectRaceModal, setOpenSelectRaceModal] = useState(false);
   const [config, setConfig] = useAtom(configAtom);
 
   const t = useTranslations("Config");
 
   return (
     <>
-      <button
-        className="absolute right-4 top-4 rounded-full"
-        onClick={() => setOpenConfigModal(true)}
+      {/* <button
+        className="absolute right-20 top-4 rounded-full"
+        onClick={() => setOpenSelectRaceModal(true)}
       >
         <Cog8ToothIcon className="w-8 text-white transition hover:rotate-180 active:opacity-50" />
-      </button>
+      </button> */}
 
       <Dialog
-        open={openConfigModal}
-        onClose={() => setOpenConfigModal(false)}
+        open={openSelectRaceModal}
+        onClose={() => setOpenSelectRaceModal(false)}
         className="relative z-50"
       >
         <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
